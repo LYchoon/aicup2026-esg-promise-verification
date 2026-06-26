@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+prediction/submission.csv
+data/test.csv
+data/trainval.csv

@@ -1,0 +1,9 @@
+# 核心（main.py：融合 + base-rate 校準）
+numpy
+pandas
+# Gemini Misleading 偵測（main.py 設了 GEMINI_API_KEY 時使用）
+google-genai
+# 從頭訓練（選用，src/train_dl.py，需 GPU）
+torch
+transformers
+scikit-learn
