@@ -1,7 +1,4 @@
-# ESG 永續承諾驗證競賽 2026 — 可復現程式（TEAM_10219）
-
-繁體中文 ESG 報告四子任務級聯分類；最終提交 public weighted macro-F1 = **0.6122**。
-
+# ESG 永續承諾驗證競賽 2026 — 可復現程式
 ---
 
 ## 復現流程
@@ -50,7 +47,7 @@ python main.py              # → prediction/submission.csv
 
 ## 資料說明
 
-為遵守競賽資料使用規範，本 repo **未隨附主辦提供的完整官方資料**（train / val / test 的文字內容）：
+本 repo **未隨附主辦提供的完整官方資料**（train / val / test 的文字內容）：
 
 - `data/test_ids.csv`：僅測試集的 `id` 欄，供融合與級聯解碼對齊（id 為流水號、不含內容）。
 - 選用步驟所需的官方完整資料請自備（皆已列入 `.gitignore`，不會被提交）：
